@@ -46,7 +46,7 @@ def playerMove(): # this is fuction for determining the player move
                     run = False # this will indicate to the computer that it is its turn
                     insertLetter('X' , move)  # this calling on the defined function on insertLetter
                 else:
-                    print('Sorry, this space is occupied')
+                    print('Sorry, this space is occupied') #this is is to print sorry
             else:
                 print('Please type a number between 1 and 9')
         except:
